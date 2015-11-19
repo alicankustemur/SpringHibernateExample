@@ -1,5 +1,7 @@
 package com.alicankustemur.SpringHibernateExample.stock.bo;
 
+import com.alicankustemur.SpringHibernateExample.model.Stock;
+
 public interface StockBo
 {
 	void save(Stock stock);

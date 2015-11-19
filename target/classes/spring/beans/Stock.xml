@@ -1,1 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	<bean id="stockBo" class="com.alicankustemur.SpringHibernateExample.stock.bo.impl.StockBoImpl">
+		<property name="stockDao" ref="stockDao" />
+	</bean>
+
+	<bean id="stockDao" class="com.alicankustemur.SpringHibernateExample.stock.dao.impl.StockDaoImpl">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+</beans>
+

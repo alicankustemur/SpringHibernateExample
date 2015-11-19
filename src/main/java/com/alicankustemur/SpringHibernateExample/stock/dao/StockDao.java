@@ -1,5 +1,7 @@
 package com.alicankustemur.SpringHibernateExample.stock.dao;
 
+import com.alicankustemur.SpringHibernateExample.model.Stock;
+
 public interface StockDao
 {
 

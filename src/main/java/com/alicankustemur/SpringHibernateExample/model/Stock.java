@@ -11,7 +11,7 @@ public class Stock implements Serializable
 	private String				stockCode;
 	private String				stockName;
 
-	private Stock()
+	public Stock()
 	{
 
 	}
